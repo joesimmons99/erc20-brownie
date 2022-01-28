@@ -5,5 +5,8 @@ compiler:
     remappings:
       - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.2.0'
 dotenv: .env
+networks:
+  rinkeby:
+    verify: True
 wallets:
-  from_key: $[PRIVATE_KEY]
+  from_key: ${PRIVATE_KEY}
